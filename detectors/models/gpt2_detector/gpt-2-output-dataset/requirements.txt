@@ -2,5 +2,6 @@ transformers>=2.0.0
 fire>=0.2.1
 requests>=2.22.0
 tqdm>=4.32.2
-torch>=1.2.0
+torch>=2.10.0
 tensorboard>=1.14.0
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
